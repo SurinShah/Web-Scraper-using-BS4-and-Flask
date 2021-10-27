@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="..\static\style1.css"> 
+   
+       
+
+
+</head>
+
+<body>
+
+    <!-- Scraper title -->
+    <form action="http://localhost:5000/index1.html" method="POST">
+        <div id=container>
+            Scraping
+            <div id=flip>
+                <div>
+                    <div>complete</div>
+                </div>
+                <div>
+                    <div>complete</div>
+                </div>
+                <div>
+                    <div>complete</div>
+                </div>
+            </div>
+    </form>
+    </div>
+
+    
+<!-- Display of results -->
+<ol>
+
+{% for i in lst %} {% for j in i %} {{j}}
+<br> {% endfor %} {% endfor %}
+
+</ol>
+
+</body>
+
+</html>
