@@ -1,0 +1,332 @@
+
+/* Title revolution */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+body {
+    margin: 0px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    background-color: antiquewhite; 
+}
+
+#container {
+    top: -56px;
+    color: #999;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 200px;
+    position: fixed;
+    width: 100%;
+    bottom: 45%;
+    display: block;
+}
+
+#flip {
+    height: 50px;
+    overflow: hidden;
+}
+
+#flip>div>div {
+    color: #fff;
+    padding: 4px 12px;
+    height: 45px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+
+#flip div:first-child {
+    animation: show 5s linear infinite;
+}
+
+#flip div div {
+    background: #A2CDCD;
+}
+
+#flip div:first-child div {
+    background: #BFA2DB;
+}
+
+#flip div:last-child div {
+    background: #D57E7E;
+}
+
+@keyframes show {
+    0% {
+        margin-top: -270px;
+    }
+    5% {
+        margin-top: -180px;
+    }
+    33% {
+        margin-top: -180px;
+    }
+    38% {
+        margin-top: -90px;
+    }
+    66% {
+        margin-top: -90px;
+    }
+    71% {
+        margin-top: 0px;
+    }
+    99.99% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -270px;
+    }
+}
+
+
+
+/* Project member names */
+
+@font-face {
+    font-family: 'Merriweather', serif;
+    src: url('https://fonts.google.com/specimen/Merriweather#standard-styles');
+}
+
+body {
+    margin-left: 1px;
+    src: ('https://fonts.google.com/specimen/Merriweather#standard-styles');
+    color: #010101;
+    overflow: hidden;
+}
+
+.item-0 {
+    font-family: 'Merriweather', serif;
+    color: #010101;
+    position: absolute;
+    display: block;
+    top: 78%;
+    left: -340px;
+    z-index: 3;
+    width: 60%;
+    font-size: 1.1em;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+    font-family: 'Merriweather', serif;
+    color: #010101;
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 60%;
+    font-size: 1em;
+}
+
+.item-1 {
+    margin-left: -310px;
+    top: 81%;
+}
+
+.item-2 {
+    margin-left: -310px;
+    top: 84%;
+}
+
+.item-3 {
+    margin-left: -310px;
+    top: 87%;
+}
+
+.item-4 {
+    margin-left: -310px;
+    top: 37em;
+}
+
+
+/* Input of url */
+
+@font-face {
+    font-family: 'Merriweather', serif;
+    src: url('https://fonts.google.com/specimen/Merriweather#standard-styles');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.wrapper {
+    position: absolute;
+    top: 20em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: relative;
+    padding: 20px 50px;
+}
+
+.form-control {
+    width: 400px;
+    border: 3px solid #145648;
+    background: transparent;
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: black;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #145648;
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #145648#145648;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #145648;
+}
+
+
+/* Input of relevant keywords */
+
+.wrapper1 {
+    position: relative;
+    top: 24em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.container1 {
+    position: relative;
+    padding: 20px 50px;
+}
+
+.form-control1 {
+    width: 400px;
+    border: 3px solid #145648;
+    background: transparent;
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: black;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #145648#145648;
+    font-size: 12px;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #145648#145648;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #145648#145648;
+}
+
+h5 {
+    top: 100em;
+    margin: 0px;
+    font-family: 'PT Serif';
+    text-align: center;
+
+}
+
+
+
+
+/* Press Enter */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+body {
+    margin: 0px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    background-color: antiquewhite; 
+}
+
+#container1 {
+    top: 300px;
+    color: #999;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: italic;
+    padding-top: 200px;
+    position: fixed;
+    width: 100%;
+    bottom: 45%;
+    display: block;
+}
+
+#flip1 {
+    height: 50px;
+    overflow: hidden;
+}
+
+#flip1>div>div {
+    color: #fff;
+    padding: 4px 12px;
+    height: 45px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+
+#flip1 div:first-child {
+    animation: show 5s linear infinite;
+}
+
+#flip1 div div {
+    background: #A2CDCD;
+}
+
+#flip1 div:first-child div {
+    background: #BFA2DB;
+}
+
+#flip1 div:last-child div {
+    background: #D57E7E;
+}
+
+@keyframes show {
+    0% {
+        margin-top: -270px;
+    }
+    5% {
+        margin-top: -180px;
+    }
+    33% {
+        margin-top: -180px;
+    }
+    38% {
+        margin-top: -90px;
+    }
+    66% {
+        margin-top: -90px;
+    }
+    71% {
+        margin-top: 0px;
+    }
+    99.99% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -270px;
+    }
+}
