@@ -1,0 +1,86 @@
+/* Title revolution */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+body {
+    margin: 0px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    background-color: antiquewhite; 
+}
+
+#container {
+    top: -56px;
+    color: #999;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 200px;
+    position: relative;      
+    width: 100%;
+    bottom: 45%;
+    display: block;
+}
+
+#flip {
+    height: 50px;
+    overflow: hidden;
+}
+
+#flip>div>div {
+    color: #fff;
+    padding: 4px 12px;
+    height: 45px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+
+#flip div:first-child {
+    animation: show 5s linear infinite;
+}
+
+#flip div div {
+    background: #A2CDCD;
+}
+
+#flip div:first-child div {
+    background: #BFA2DB;
+}
+
+#flip div:last-child div {
+    background: #D57E7E;
+}
+
+@keyframes show {
+    0% {
+        margin-top: -270px;
+    }
+    5% {
+        margin-top: -180px;
+    }
+    33% {
+        margin-top: -180px;
+    }
+    38% {
+        margin-top: -90px;
+    }
+    66% {
+        margin-top: -90px;
+    }
+    71% {
+        margin-top: 0px;
+    }
+    99.99% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -270px;
+    }
+}
+
+
+
+ol {
+    margin: 0px;
+    font-family: 'PT Serif';
+    text-align: center;
+
+}
