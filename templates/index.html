@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="..\static\style.css">
+
+
+</head>
+
+<body>
+    
+
+    <!-- Scraper title -->
+    <form action="http://localhost:5000/index1.html" method="POST">
+        <div id=container>
+            Scrape
+            <div id=flip>
+                <div>
+                    <div>websites</div>
+                </div>
+                <div>
+                    <div>blogs</div>
+                </div>
+                <div>
+                    <div>Everything !</div>
+                </div>
+            </div>
+    </form>
+    </div>
+
+
+
+    <!-- Project member names -->
+
+    <p class="item-0">PROJECT BY: </p>
+    <p class="item-1"> Aryaman Tiwary, Diti Divekar</p>
+    <p class="item-2">Shriya Pingulkar, Shruti Tyagi</p>
+    <p class="item-3"> Maryam Binderwala, Surin Shah</p>
+
+      <!-- press enter -->
+      <form action="http://localhost:5000/index1.html" method="POST">
+        <div id=container1>
+            Press
+            <div id=flip1>
+                <div>
+                    <div>enter</div>
+                </div>
+                <div>
+                    <div>enter</div>
+                </div>
+                <div>
+                    <div>enter</div>
+                </div>
+            </div>
+    </form>
+    </div>
+   
+    
+
+   
+    <!--  Input of keywords  -->
+    {% block content %}
+    <form action="/index" method="POST">
+        <div class="wrapper1">
+            <div class="container1">
+                <input type="text" class="form-control" placeholder="Enter keywords separated by comma" name="keywords">
+            </div>
+        </div>
+
+        
+        <!--  Input of urls  -->
+        <div class="wrapper">
+            <div class="container">
+                <input type="url" class="form-control1" placeholder="Please enter your url" name="url">
+            </div>
+        </div>
+        
+       
+
+        <button type="submit" class="btn btn-primary"> </button>   {% endblock %}  
+
+</body>
+
+</html>
