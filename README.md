@@ -23,6 +23,3 @@ We have created a Web Scraping Website which scrapes text contents for an entere
 2. Press the Enter button on your keyboard.
 3. You will then be redirected to the results page where the scraped data result will be displayed.
 
-# Screenshot of website
-
-![1](https://user-images.githubusercontent.com/76935531/142830353-6cee00bd-1504-4e84-af0b-62289e33e2bb.png)
