@@ -1,3 +1,4 @@
+
 # Web Scraper
 
 We have created a Web Scraping Website which scrapes text contents for an entered website. In this project, data is scraped based on two parameters - the url and the keywords that are provided by the user. Any result that is displayed will take both these parameters into account.
@@ -21,3 +22,7 @@ We have created a Web Scraping Website which scrapes text contents for an entere
 1. After you open the website on your preffered browser, Input the required url along with the necessary keywords.
 2. Press the Enter button on your keyboard.
 3. You will then be redirected to the results page where the scraped data result will be displayed.
+
+# Screenshot of website
+
+![1](https://user-images.githubusercontent.com/76935531/142830353-6cee00bd-1504-4e84-af0b-62289e33e2bb.png)
